@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+html {
+    height: 200vh;
+    overflow-x: hidden ;
+}
+
+#contaider {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    padding: 50px 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .3s;
+}
+
+header.rolagem {
+    background-color: whitesmoke;
+    padding: 20px 2%;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 24px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url(../_img/baixados\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -10px;
+    margin-top: -20px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+section h1 {
+    font-size: 30pt;
+    font-family: 'Bungee';
+    color: rgb(11, 11, 11);
+}
+
+section span {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.info {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    margin: 10px -10px;
+    font-size: 20pt;
+    text-align: center;
+}
+
+
+
+.btn-playlist {
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.rodape {
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    margin: -9px -10px;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.paragrafo {
+    float: right;
+    left: -100px;
+    top: 100px;
+    position: relative;
+}
+.btn-playlist {
+    float: right;
+    top: 200px;
+    right: -300px;
+    position: relative;
+}
